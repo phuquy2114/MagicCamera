@@ -138,9 +138,11 @@ public class EffectController implements EffectListener.EffectFlinger, EffectLis
             public void onProgressChanged(int progress, float progressFloat) {
                 onBeautyDegreeChanged(progressFloat);
             }
+
             @Override
             public void getProgressOnActionUp(int progress, float progressFloat) {
             }
+
             @Override
             public void getProgressOnFinally(int progress, float progressFloat) {
             }
@@ -152,9 +154,11 @@ public class EffectController implements EffectListener.EffectFlinger, EffectLis
             public void onProgressChanged(int progress, float progressFloat) {
                 onBigEyeDegreeChanged(progressFloat);
             }
+
             @Override
             public void getProgressOnActionUp(int progress, float progressFloat) {
             }
+
             @Override
             public void getProgressOnFinally(int progress, float progressFloat) {
             }
@@ -165,10 +169,12 @@ public class EffectController implements EffectListener.EffectFlinger, EffectLis
             public void onProgressChanged(int progress, float progressFloat) {
                 onThinFaceDegreeChanged(progressFloat);
             }
+
             @Override
             public void getProgressOnActionUp(int progress, float progressFloat) {
 
             }
+
             @Override
             public void getProgressOnFinally(int progress, float progressFloat) {
             }

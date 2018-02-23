@@ -36,7 +36,8 @@ public class MainActivity extends AppCompatActivity {
                     return 0;
                 }
             });
-            int id = AiyaEffects.init(getApplicationContext(), "477de67d19ba39fb656a4806c803b552");
+
+            int id = AiyaEffects.init(getApplicationContext(), getPackageName());
             Log.e("wuwang", "id:" + id);
         }
     };

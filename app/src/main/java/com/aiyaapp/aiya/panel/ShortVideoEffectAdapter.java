@@ -38,13 +38,13 @@ import com.aiyaapp.aiya.filter.SvVirtualMirrorFilter;
  */
 public class ShortVideoEffectAdapter extends RecyclerView.Adapter<ShortVideoEffectAdapter.MenuHolder> implements View.OnClickListener {
 
-
     private Context mContext;
     private String[] filter_names = new String[]{
-            "无特效", "灵魂出窍", "抖动", "黑魔法", "虚拟镜像", "荧光", "时光隧道", "躁动",
-            "终极变色", "动感分屏", "幻觉", "70S", "炫酷转动", "四分屏", "三分屏", "黑白闪烁",
-            "转场动画"
+            "No effect", "Soul out of the hole", "Jitter", "dark magic", "Virtual image", "Fluorescence",
+            "Time Tunnel", "Restlessness", "Very pale", "Dynamic screen", "Illusion", "70S", "Cool turn",
+            "Quarter screen", "Three split screen", "Black and white flashing", "Transition animation"
     };
+
     private Class[] filter_clazzs = new Class[]{
             LazyFilter.class, SvSpiritFreedFilter.class, SvShakeFilter.class,
             SvBlackMagicFilter.class, SvVirtualMirrorFilter.class, SvFluorescenceFilter.class,
@@ -53,6 +53,7 @@ public class ShortVideoEffectAdapter extends RecyclerView.Adapter<ShortVideoEffe
             SvRollUpFilter.class, SvFourScreenFilter.class, SvThreeScreenFilter.class,
             SvBlackWhiteTwinkleFilter.class, SvCutSceneFilter.class
     };
+
     public int checkPos = 0;
     private EffectListener.OnShortVideoEffectChangedListener mListener;
 

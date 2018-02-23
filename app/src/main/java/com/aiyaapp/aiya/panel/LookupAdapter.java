@@ -21,7 +21,7 @@ public class LookupAdapter extends RecyclerView.Adapter<LookupAdapter.MenuHolder
     private EffectListener.OnLookupFilterChangeListener mListener;
 
     private String[] filterName=new String[]{
-         "无滤镜","滤镜一","滤镜二","滤镜三","滤镜四","滤镜五","滤镜六"
+            "No filter", "filter one", "filter two", "filter three", "filter four", "filter five", "filter six"
     };
 
     private String[] filters=new String[]{

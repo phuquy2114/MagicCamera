@@ -64,8 +64,6 @@ public class EffectListener {
         void onBeautySmoothDegreeChanged(float degree);
         void onBeautySaturateDegreeChanged(float degree);
         void onBeautyBrightenDegreeChanged(float degree);
-
-
     }
 
     interface OnGroomingChangedListener{

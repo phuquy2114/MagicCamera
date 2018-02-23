@@ -24,7 +24,7 @@ public class BeautyAdapter extends RecyclerView.Adapter<BeautyAdapter.MenuHolder
 
     private Context mContext;
     public String[] beautys = new String[]{
-            "无美颜", "美颜一", "美颜二", "美颜三", "美颜四", "美颜五", "美颜六"
+            "No Beauty", "Beauty One", "Beauty Two", "Beauty Three", "Beauty Four", "Beauty Five", "Beauty Six"
     };
 
     public int[] beanutyId = new int[]{
